@@ -71,6 +71,7 @@ sudo snap install code --classic
 gedit ~/.bashrc
 
 아래 문장 추가
+
 alias humble='source /opt/ros/humble/setup.bash && source install/setup.bash && source install/local_setup.bash'
 
 alias cb='colcon build --packages-select'
