@@ -1,3 +1,8 @@
+## 0. 터미네이터 설치
+
+sudo apt install terminator -y
+
+
 ## 1. Locale 설정
 
 locale
