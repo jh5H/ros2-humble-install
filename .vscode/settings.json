@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/per/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages",
+        "/home/per/ros2_ws/build/rotem_selftram",
+        "/home/per/ros2_ws/install/rotem_selftram/lib/python3.10/site-packages",
+        "/home/per/ros2_ws/build/nav_lv",
+        "/home/per/ros2_ws/install/nav_lv/lib/python3.10/site-packages",
+        "/home/per/ros2_ws/build/nav_go",
+        "/home/per/ros2_ws/install/nav_go/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/per/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages",
+        "/home/per/ros2_ws/build/rotem_selftram",
+        "/home/per/ros2_ws/install/rotem_selftram/lib/python3.10/site-packages",
+        "/home/per/ros2_ws/build/nav_lv",
+        "/home/per/ros2_ws/install/nav_lv/lib/python3.10/site-packages",
+        "/home/per/ros2_ws/build/nav_go",
+        "/home/per/ros2_ws/install/nav_go/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
