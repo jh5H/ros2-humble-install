@@ -1,0 +1,10 @@
+git init
+
+
+git config --global user.name jh5H
+git config --global user.email ojh2079@rlmodel.com
+
+
+git config --global credential.helper cache
+
+git config --global credential.helper 'cache --timeout 7200'
