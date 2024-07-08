@@ -8,3 +8,6 @@ git config --global user.email ojh2079@rlmodel.com
 git config --global credential.helper cache
 
 git config --global credential.helper 'cache --timeout 7200'
+
+
+git config
