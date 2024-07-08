@@ -5,7 +5,8 @@ git config --global user.name jh5H
 git config --global user.email ojh2079@rlmodel.com
 
 
-git config --global credential.helper cache
+git config --global credential.helper cache     
+ㄴ timeout 미지정 시 default값 900second (약 15분)
 
 git config --global credential.helper 'cache --timeout 7200'
 
