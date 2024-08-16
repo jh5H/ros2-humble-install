@@ -62,3 +62,8 @@ sh -c "echo \"alias cbp='colcon build --symlink-install --packages-select'\" >> 
 sh -c "echo \"alias rosdinstall='rosdep install -y -r -q --from-paths src --ignore-src --rosdistro'\" >> ~/.bashrc"
 sh -c "echo \"alias humble='source /opt/ros/humble/setup.bash && source ./install/setup.bash && source ./install/local_setup.bash'\" >> ~/.bashrc"
 
+echo "Finish && Delete file"
+echo "good luck to you"
+
+cd ~
+rm -rf ros2_humble_install/
