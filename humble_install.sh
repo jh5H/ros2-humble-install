@@ -34,6 +34,17 @@ sudo apt install ros-dev-tools -y
 
 sudo apt install ros-humble-rqt-* -y
 
+sudo apt install terminator -y
+
+sudo apt install -y python3-pip
+
+pip3 install -U argcomplete
+
+sudo apt install python3-colcon-common-extensions -y
+
+sudo apt install git -y
+
+
 source /opt/ros/humble/setup.bash
 
 sudo rosdep init
@@ -50,5 +61,4 @@ sh -c "echo \"export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp\" >> ~/.bashrc"
 sh -c "echo \"alias cbp='colcon build --symlink-install --packages-select'\" >> ~/.bashrc"
 sh -c "echo \"alias rosdinstall='rosdep install -y -r -q --from-paths src --ignore-src --rosdistro'\" >> ~/.bashrc"
 sh -c "echo \"alias humble='source /opt/ros/humble/setup.bash && source ./install/setup.bash && source ./install/local_setup.bash'\" >> ~/.bashrc"
-
 
