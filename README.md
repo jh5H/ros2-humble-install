@@ -23,7 +23,7 @@ sudo chmod +x humble_install.sh
 
 <br/>
 
-### pree ENTER && take a nap
+#### press ENTER && take a nap
 
 ```bash
 nap=Zzz...
