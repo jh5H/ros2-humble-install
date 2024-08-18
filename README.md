@@ -6,6 +6,7 @@
 #### clone
 
 ```bash
+sudo apt install git
 cd ~
 git clone https://github.com/jh5H/ros2_humble_install.git
 ```
