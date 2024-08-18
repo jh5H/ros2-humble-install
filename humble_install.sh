@@ -34,6 +34,8 @@ sudo apt install ros-dev-tools -y
 
 sudo apt install ros-humble-rqt-* -y
 
+sudo apt install ros-humble-rmw-cyclonedds-cpp -y
+
 sudo apt install terminator -y
 
 sudo apt install -y python3-pip
@@ -70,4 +72,5 @@ echo -e "${GREEN}==== Finish && Delete file ===="
 echo -e "==== good luck to you ===="
 
 cd ~
-rm -rf ros2_humble_install/
+rm -rf ~/ros2_humble_install/
+cd
